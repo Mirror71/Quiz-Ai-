@@ -1,0 +1,13 @@
+How the Internet Works
+
+The Internet is a global network of interconnected computers that communicate with one another using a common set of rules called protocols. It allows billions of devices around the world to share information almost instantly.
+
+At the heart of the Internet is the TCP/IP protocol suite. IP, or Internet Protocol, is responsible for addressing and routing data so that it can travel from one device to another. Every device connected to the Internet is assigned a unique numerical label called an IP address. TCP, or Transmission Control Protocol, breaks data into small units called packets, ensures they are delivered reliably, and reassembles them in the correct order at the destination.
+
+When you visit a website, your computer sends a request to a server, which is a powerful computer that stores and delivers web content. The request travels through several intermediate devices called routers, which forward packets toward their destination by choosing efficient paths across the network.
+
+Because numerical IP addresses are difficult for people to remember, the Domain Name System (DNS) acts like a phone book for the Internet. It translates human-friendly domain names, such as example.com, into the IP addresses that computers use.
+
+Web pages are transferred using the Hypertext Transfer Protocol (HTTP), or its secure version HTTPS, which encrypts data to protect privacy and security. Web browsers interpret the received files, which are written in languages such as HTML, CSS, and JavaScript, and display them as the pages we see.
+
+The Internet has no single owner. Instead, it is maintained by many organizations and Internet service providers that cooperate using shared standards, making it a decentralized and resilient system.

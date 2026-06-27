@@ -1,0 +1,13 @@
+Plate Tectonics
+
+Plate tectonics is the scientific theory that explains the large-scale movement of the Earth's outer shell, called the lithosphere. The theory was developed in the 1960s and unified earlier ideas, including Alfred Wegener's hypothesis of continental drift proposed in 1912.
+
+According to the theory, the lithosphere is broken into several large and small pieces called tectonic plates. These plates float on top of the asthenosphere, a layer of the mantle that behaves like a slow-flowing, semi-solid material. The plates move very slowly, typically a few centimeters per year, driven mainly by convection currents in the mantle.
+
+There are three main types of plate boundaries, defined by how plates move relative to each other. At divergent boundaries, plates move apart from one another. This often happens at mid-ocean ridges, where magma rises to create new crust, a process called seafloor spreading.
+
+At convergent boundaries, plates move toward each other and collide. When an oceanic plate meets a continental plate, the denser oceanic plate sinks beneath the other in a process called subduction, often forming deep ocean trenches and volcanic mountains. When two continental plates collide, they push up to form mountain ranges such as the Himalayas.
+
+At transform boundaries, plates slide past each other horizontally. The San Andreas Fault in California is a well-known example. The stress that builds up along these boundaries is frequently released as earthquakes.
+
+Plate tectonics explains many geological features and events, including the distribution of earthquakes and volcanoes, the formation of mountains, and the slow movement of continents over millions of years.

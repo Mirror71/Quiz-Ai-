@@ -1,0 +1,16 @@
+Cellular Respiration
+
+Cellular respiration is the process by which cells break down glucose and other food molecules to release energy that is stored in the form of adenosine triphosphate (ATP). ATP is often called the energy currency of the cell because it powers nearly all cellular activities.
+
+The overall chemical equation for aerobic cellular respiration is:
+C6H12O6 + 6 O2 -> 6 CO2 + 6 H2O + energy (ATP)
+
+Aerobic respiration, which requires oxygen, occurs in three main stages. The first stage is glycolysis, which takes place in the cytoplasm of the cell. During glycolysis, one molecule of glucose is split into two molecules of pyruvate, producing a small amount of ATP and NADH.
+
+The second stage is the Krebs cycle, also called the citric acid cycle, which takes place in the matrix of the mitochondria. In this stage, pyruvate is further broken down, releasing carbon dioxide and producing more NADH and FADH2, along with a small amount of ATP.
+
+The third stage is the electron transport chain, located in the inner membrane of the mitochondria. Here, the NADH and FADH2 molecules donate electrons that drive the production of a large amount of ATP. Oxygen serves as the final electron acceptor, combining with electrons and hydrogen ions to form water.
+
+When oxygen is not available, cells can use anaerobic respiration, or fermentation, which produces much less ATP. In humans, this leads to the build-up of lactic acid in muscles, while in yeast it produces ethanol and carbon dioxide.
+
+Cellular respiration is essentially the reverse of photosynthesis and is vital for providing the energy that living organisms need to grow, move, and maintain their bodies.

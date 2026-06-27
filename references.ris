@@ -1,0 +1,111 @@
+TY  - CONF
+AU  - Brown, Tom B.
+AU  - Mann, Benjamin
+AU  - Ryder, Nick
+AU  - Subbiah, Melanie
+AU  - Kaplan, Jared
+AU  - Dhariwal, Prafulla
+AU  - Amodei, Dario
+TI  - Language models are few-shot learners
+T2  - Advances in Neural Information Processing Systems
+VL  - 33
+SP  - 1877
+EP  - 1901
+PY  - 2020
+ER  -
+
+TY  - RPRT
+AU  - Gemini Team
+AU  - Google
+TI  - Gemini: A family of highly capable multimodal models
+PB  - arXiv
+PY  - 2023
+DO  - 10.48550/arXiv.2312.11805
+UR  - https://doi.org/10.48550/arXiv.2312.11805
+ER  -
+
+TY  - JOUR
+AU  - Kasneci, Enkelejda
+AU  - Sessler, Kathrin
+AU  - Küchemann, Stefan
+AU  - Bannert, Maria
+AU  - Dementieva, Daryna
+AU  - Kasneci, Gjergji
+TI  - ChatGPT for good? On opportunities and challenges of large language models for education
+JO  - Learning and Individual Differences
+VL  - 103
+SP  - 102274
+PY  - 2023
+DO  - 10.1016/j.lindif.2023.102274
+ER  -
+
+TY  - JOUR
+AU  - Kurdi, Ghader
+AU  - Leo, Jared
+AU  - Parsia, Bijan
+AU  - Sattler, Uli
+AU  - Al-Emari, Salam
+TI  - A systematic review of automatic question generation for educational purposes
+JO  - International Journal of Artificial Intelligence in Education
+VL  - 30
+IS  - 1
+SP  - 121
+EP  - 204
+PY  - 2020
+DO  - 10.1007/s40593-019-00186-y
+ER  -
+
+TY  - CONF
+AU  - Ouyang, Long
+AU  - Wu, Jeffrey
+AU  - Jiang, Xu
+AU  - Almeida, Diogo
+AU  - Wainwright, Carroll L.
+AU  - Lowe, Ryan
+TI  - Training language models to follow instructions with human feedback
+T2  - Advances in Neural Information Processing Systems
+VL  - 35
+SP  - 27730
+EP  - 27744
+PY  - 2022
+ER  -
+
+TY  - BOOK
+AU  - Russell, Stuart
+AU  - Norvig, Peter
+TI  - Artificial Intelligence: A Modern Approach
+ET  - 4th
+PB  - Pearson
+PY  - 2021
+ER  -
+
+TY  - CONF
+AU  - Vaswani, Ashish
+AU  - Shazeer, Noam
+AU  - Parmar, Niki
+AU  - Uszkoreit, Jakob
+AU  - Jones, Llion
+AU  - Gomez, Aidan N.
+AU  - Kaiser, Łukasz
+AU  - Polosukhin, Illia
+TI  - Attention is all you need
+T2  - Advances in Neural Information Processing Systems
+VL  - 30
+SP  - 5998
+EP  - 6008
+PY  - 2017
+ER  -
+
+TY  - CONF
+AU  - Zhao, Zihao
+AU  - Wallace, Eric
+AU  - Feng, Shi
+AU  - Klein, Dan
+AU  - Singh, Sameer
+TI  - Calibrate before use: Improving few-shot performance of language models
+T2  - Proceedings of the 38th International Conference on Machine Learning
+VL  - 139
+SP  - 12697
+EP  - 12706
+PY  - 2021
+ER  -

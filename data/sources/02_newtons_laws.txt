@@ -1,0 +1,11 @@
+Newton's Laws of Motion
+
+Sir Isaac Newton published his three laws of motion in 1687 in his work "Philosophiae Naturalis Principia Mathematica." These laws form the foundation of classical mechanics and describe the relationship between the motion of an object and the forces acting on it.
+
+Newton's First Law, also called the law of inertia, states that an object at rest stays at rest and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced external force. Inertia is the tendency of an object to resist changes in its state of motion. The more mass an object has, the greater its inertia.
+
+Newton's Second Law states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. This is expressed by the equation F = m * a, where F is the net force, m is the mass, and a is the acceleration. This means a larger force produces a larger acceleration, while a larger mass produces a smaller acceleration for the same force.
+
+Newton's Third Law states that for every action there is an equal and opposite reaction. When one object exerts a force on a second object, the second object exerts a force of equal magnitude but in the opposite direction on the first. For example, when you push against a wall, the wall pushes back against you with equal force. These action-reaction pairs always act on different objects.
+
+Together, these three laws explain a wide range of everyday phenomena, from the motion of vehicles and projectiles to the orbits of planets. They remain accurate for objects moving at speeds much slower than the speed of light, where relativistic effects can be ignored.

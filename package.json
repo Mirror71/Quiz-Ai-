@@ -1,0 +1,14 @@
+{
+  "name": "quizai",
+  "version": "1.0.0",
+  "description": "QuizAI — AI-powered quiz generator from PDF/PPTX using Google Gemini",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "node server/index.js",
+    "deploy:local": "npm --prefix client run build && node server/index.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  }
+}

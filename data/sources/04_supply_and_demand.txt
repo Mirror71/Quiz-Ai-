@@ -1,0 +1,13 @@
+Supply and Demand
+
+Supply and demand is one of the most fundamental concepts in economics and forms the basis of a market economy. It describes how the price and quantity of goods and services are determined in a market.
+
+Demand refers to the quantity of a good or service that consumers are willing and able to buy at various prices during a given period. The law of demand states that, all other factors being equal, as the price of a good rises, the quantity demanded falls, and as the price falls, the quantity demanded rises. This inverse relationship is represented by a downward-sloping demand curve.
+
+Supply refers to the quantity of a good or service that producers are willing and able to offer for sale at various prices. The law of supply states that, all other factors being equal, as the price of a good rises, the quantity supplied increases, because higher prices make production more profitable. This direct relationship is represented by an upward-sloping supply curve.
+
+The point where the supply curve and the demand curve intersect is called the market equilibrium. At the equilibrium price, the quantity demanded equals the quantity supplied, and there is no shortage or surplus.
+
+If the price is set above equilibrium, a surplus occurs because supply exceeds demand, putting downward pressure on the price. If the price is set below equilibrium, a shortage occurs because demand exceeds supply, putting upward pressure on the price.
+
+Many factors can shift the demand curve, such as changes in consumer income, tastes, and the prices of related goods. Factors that shift the supply curve include changes in production costs, technology, and the number of sellers. Understanding supply and demand helps explain how markets allocate resources efficiently.

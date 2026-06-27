@@ -1,0 +1,11 @@
+id,filename,title,domain,reference_source,accuracy_verified
+1,01_photosynthesis.txt,Photosynthesis,Biology,"Campbell Biology, 12th ed.; Encyclopaedia Britannica",yes
+2,02_newtons_laws.txt,Newton's Laws of Motion,Physics,"Halliday, Resnick & Walker, Fundamentals of Physics; Britannica",yes
+3,03_french_revolution.txt,The French Revolution,History,"Encyclopaedia Britannica; OpenStax World History",yes
+4,04_supply_and_demand.txt,Supply and Demand,Economics,"Mankiw, Principles of Economics, 9th ed.",yes
+5,05_water_cycle.txt,The Water Cycle,Earth Science,"USGS Water Science School; Britannica",yes
+6,06_how_the_internet_works.txt,How the Internet Works,Computer Science,"Kurose & Ross, Computer Networking: A Top-Down Approach",yes
+7,07_plate_tectonics.txt,Plate Tectonics,Earth Science,"USGS; Tarbuck & Lutgens, Earth Science",yes
+8,08_cellular_respiration.txt,Cellular Respiration,Biology,"Campbell Biology, 12th ed.; OpenStax Biology",yes
+9,09_machine_learning_basics.txt,Introduction to Machine Learning,Computer Science,"Goodfellow et al., Deep Learning; Mitchell, Machine Learning",yes
+10,10_human_circulatory_system.txt,The Human Circulatory System,Biology,"OpenStax Anatomy & Physiology; Britannica",yes

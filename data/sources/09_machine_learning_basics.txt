@@ -1,0 +1,13 @@
+Introduction to Machine Learning
+
+Machine learning is a branch of artificial intelligence that enables computer systems to learn from data and improve their performance on a task without being explicitly programmed for every situation. Instead of following fixed rules, a machine learning model identifies patterns in data and uses them to make predictions or decisions.
+
+There are three main types of machine learning. The first is supervised learning, in which the model is trained on labeled data, meaning each example includes both the input and the correct output. The model learns to map inputs to outputs and can then predict the output for new, unseen inputs. Common supervised learning tasks include classification, where the goal is to assign data to categories, and regression, where the goal is to predict a continuous value.
+
+The second type is unsupervised learning, in which the model is given data without labels and must find structure or patterns on its own. A common unsupervised task is clustering, which groups similar data points together. Another is dimensionality reduction, which simplifies data while preserving important information.
+
+The third type is reinforcement learning, in which an agent learns by interacting with an environment. The agent receives rewards or penalties for its actions and gradually learns a strategy, called a policy, that maximizes its total reward over time.
+
+A typical machine learning workflow includes collecting and cleaning data, splitting it into training and testing sets, choosing a model, training the model on the training data, and evaluating its performance on the testing data. Important evaluation metrics include accuracy, precision, recall, and the F1 score.
+
+A key challenge in machine learning is balancing underfitting, where a model is too simple to capture patterns, and overfitting, where a model memorizes the training data but fails to generalize to new data.

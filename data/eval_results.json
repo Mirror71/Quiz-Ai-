@@ -1,0 +1,1946 @@
+[
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 20.91,
+    "needed_fence_fix": false,
+    "raw_len": 4083,
+    "quiz": [
+      {
+        "question": "What is the primary function of photosynthesis as described in the text?",
+        "options": {
+          "A": "To convert chemical energy into light energy.",
+          "B": "To break down glucose for energy.",
+          "C": "To convert light energy into chemical energy stored in glucose.",
+          "D": "To absorb oxygen from the atmosphere."
+        },
+        "answer": "C",
+        "explanation": "Photosynthesis is the biological process by which organisms convert light energy into chemical energy stored in glucose."
+      },
+      {
+        "question": "Which of the following are the primary products of photosynthesis?",
+        "options": {
+          "A": "Carbon dioxide and water",
+          "B": "Glucose and oxygen",
+          "C": "ATP and NADPH",
+          "D": "Light energy and chlorophyll"
+        },
+        "answer": "B",
+        "explanation": "The overall chemical equation shows C6H12O6 (glucose) and 6 O2 (oxygen) as the products."
+      },
+      {
+        "question": "In which organelle does photosynthesis mainly take place?",
+        "options": {
+          "A": "Mitochondria",
+          "B": "Nucleus",
+          "C": "Chloroplasts",
+          "D": "Ribosomes"
+        },
+        "answer": "C",
+        "explanation": "Photosynthesis takes place mainly in the leaves, inside organelles called chloroplasts."
+      },
+      {
+        "question": "What is the role of chlorophyll in photosynthesis?",
+        "options": {
+          "A": "To produce oxygen as a byproduct.",
+          "B": "To synthesize glucose molecules.",
+          "C": "To absorb light energy for the process.",
+          "D": "To transport water molecules."
+        },
+        "answer": "C",
+        "explanation": "Chlorophyll is a green pigment that absorbs light, providing the energy for photosynthesis."
+      },
+      {
+        "question": "During which stage of photosynthesis are water molecules split, releasing oxygen?",
+        "options": {
+          "A": "The Calvin cycle",
+          "B": "The light-independent reactions",
+          "C": "The light-dependent reactions",
+          "D": "Glycolysis"
+        },
+        "answer": "C",
+        "explanation": "In the light-dependent reactions, light energy is used to split water molecules (photolysis), releasing oxygen as a byproduct."
+      },
+      {
+        "question": "Where do the light-independent reactions, also known as the Calvin cycle, occur?",
+        "options": {
+          "A": "In the thylakoid membranes of the chloroplast.",
+          "B": "In the cytoplasm of the cell.",
+          "C": "In the stroma of the chloroplast.",
+          "D": "In the cell nucleus."
+        },
+        "answer": "C",
+        "explanation": "The light-independent reactions, or Calvin cycle, take place in the stroma of the chloroplast."
+      },
+      {
+        "question": "What are the energy carriers produced during the light-dependent reactions that are then used in the Calvin cycle?",
+        "options": {
+          "A": "CO2 and H2O",
+          "B": "Glucose and O2",
+          "C": "ATP and NADPH",
+          "D": "Chlorophyll and RuBisCO"
+        },
+        "answer": "C",
+        "explanation": "The light-dependent reactions produce the energy carriers ATP and NADPH, which are then used in the Calvin cycle."
+      },
+      {
+        "question": "Which enzyme is highlighted as key in the conversion of carbon dioxide into glucose during the Calvin cycle?",
+        "options": {
+          "A": "Amylase",
+          "B": "Lipase",
+          "C": "RuBisCO",
+          "D": "Pepsin"
+        },
+        "answer": "C",
+        "explanation": "The text states that RuBisCO is the key enzyme involved in the Calvin cycle for converting carbon dioxide into glucose."
+      },
+      {
+        "question": "Which of the following is NOT mentioned as a factor that affects the rate of photosynthesis?",
+        "options": {
+          "A": "Light intensity",
+          "B": "Carbon dioxide concentration",
+          "C": "Temperature",
+          "D": "Humidity"
+        },
+        "answer": "D",
+        "explanation": "The text mentions light intensity, carbon dioxide concentration, and temperature as factors affecting the rate, but not humidity."
+      },
+      {
+        "question": "Beyond producing energy and oxygen, how does photosynthesis contribute to regulating the global climate?",
+        "options": {
+          "A": "By increasing atmospheric nitrogen levels.",
+          "B": "By removing carbon dioxide from the atmosphere.",
+          "C": "By releasing methane gas.",
+          "D": "By generating oceanic currents."
+        },
+        "answer": "B",
+        "explanation": "Photosynthesis removes carbon dioxide from the atmosphere, helping to regulate the global climate."
+      }
+    ],
+    "doc_id": "1",
+    "doc_title": "Photosynthesis",
+    "domain": "Biology",
+    "source_chars": 1776
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.24,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "1",
+    "doc_title": "Photosynthesis",
+    "domain": "Biology",
+    "source_chars": 1776
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": true,
+    "error": null,
+    "latency_s": 12.15,
+    "needed_fence_fix": false,
+    "raw_len": 4037,
+    "quiz": [
+      {
+        "question": "What is the primary purpose of photosynthesis?",
+        "options": {
+          "A": "To produce carbon dioxide for the atmosphere.",
+          "B": "To convert light energy into chemical energy stored in glucose.",
+          "C": "To absorb oxygen from the atmosphere.",
+          "D": "To break down glucose into carbon dioxide and water."
+        },
+        "answer": "B",
+        "explanation": "Photosynthesis is defined as the process of converting light energy into chemical energy in the form of glucose."
+      },
+      {
+        "question": "Which of the following organisms perform photosynthesis?",
+        "options": {
+          "A": "Green plants, algae, and some bacteria.",
+          "B": "All living organisms on Earth.",
+          "C": "Only green plants.",
+          "D": "Fungi and animals."
+        },
+        "answer": "A",
+        "explanation": "The text explicitly states that green plants, algae, and some bacteria are capable of photosynthesis."
+      },
+      {
+        "question": "What is the key pigment involved in absorbing light during photosynthesis?",
+        "options": {
+          "A": "Carotenoid",
+          "B": "Xanthophyll",
+          "C": "Chlorophyll",
+          "D": "Anthocyanin"
+        },
+        "answer": "C",
+        "explanation": "Chlorophyll is the green pigment found in chloroplasts that absorbs light energy for photosynthesis."
+      },
+      {
+        "question": "Where does the first stage of photosynthesis, the light-dependent reactions, take place?",
+        "options": {
+          "A": "Stroma of the chloroplast",
+          "B": "Thylakoid membranes of the chloroplast",
+          "C": "Outer membrane of the chloroplast",
+          "D": "Nucleus of the plant cell"
+        },
+        "answer": "B",
+        "explanation": "The light-dependent reactions occur in the thylakoid membranes within the chloroplasts."
+      },
+      {
+        "question": "What is the byproduct released during the photolysis of water in the light-dependent reactions?",
+        "options": {
+          "A": "Glucose",
+          "B": "Carbon dioxide",
+          "C": "ATP",
+          "D": "Oxygen"
+        },
+        "answer": "D",
+        "explanation": "The splitting of water molecules (photolysis) during the light-dependent reactions releases oxygen as a byproduct."
+      },
+      {
+        "question": "What are the energy carriers produced during the light-dependent reactions?",
+        "options": {
+          "A": "Glucose and oxygen",
+          "B": "ATP and NADPH",
+          "C": "Carbon dioxide and water",
+          "D": "RuBisCO and starch"
+        },
+        "answer": "B",
+        "explanation": "The light-dependent reactions generate ATP and NADPH, which are then used in the next stage."
+      },
+      {
+        "question": "What is the other name for the light-independent reactions of photosynthesis?",
+        "options": {
+          "A": "Light-dependent reactions",
+          "B": "Photolysis",
+          "C": "Calvin cycle",
+          "D": "Krebs cycle"
+        },
+        "answer": "C",
+        "explanation": "The light-independent reactions are also referred to as the Calvin cycle."
+      },
+      {
+        "question": "In which part of the chloroplast does the Calvin cycle take place?",
+        "options": {
+          "A": "Thylakoid membranes",
+          "B": "Stroma",
+          "C": "Outer membrane",
+          "D": "Inner membrane"
+        },
+        "answer": "B",
+        "explanation": "The Calvin cycle, or light-independent reactions, occurs in the stroma of the chloroplast."
+      },
+      {
+        "question": "What is the key enzyme involved in the Calvin cycle?",
+        "options": {
+          "A": "ATP synthase",
+          "B": "Chlorophyllase",
+          "C": "RuBisCO",
+          "D": "Amylase"
+        },
+        "answer": "C",
+        "explanation": "RuBisCO is identified in the text as the key enzyme responsible for carbon fixation in the Calvin cycle."
+      },
+      {
+        "question": "Which of the following is NOT listed as a factor affecting the rate of photosynthesis?",
+        "options": {
+          "A": "Light intensity",
+          "B": "Carbon dioxide concentration",
+          "C": "Temperature",
+          "D": "Humidity"
+        },
+        "answer": "D",
+        "explanation": "The text mentions light intensity, carbon dioxide concentration, and temperature as factors affecting photosynthesis, but not humidity."
+      }
+    ],
+    "doc_id": "1",
+    "doc_title": "Photosynthesis",
+    "domain": "Biology",
+    "source_chars": 1776
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 11.91,
+    "needed_fence_fix": false,
+    "raw_len": 4005,
+    "quiz": [
+      {
+        "question": "In which year were Newton's laws of motion published?",
+        "options": {
+          "A": "1787",
+          "B": "1687",
+          "C": "1587",
+          "D": "1887"
+        },
+        "answer": "B",
+        "explanation": "The text states that Sir Isaac Newton published his three laws of motion in 1687."
+      },
+      {
+        "question": "What is Newton's First Law also known as?",
+        "options": {
+          "A": "The law of gravity",
+          "B": "The law of action-reaction",
+          "C": "The law of inertia",
+          "D": "The law of acceleration"
+        },
+        "answer": "C",
+        "explanation": "The text explicitly states, 'Newton's First Law, also called the law of inertia'."
+      },
+      {
+        "question": "According to Newton's First Law, what causes an object's state of motion to change?",
+        "options": {
+          "A": "Its own inertia",
+          "B": "An unbalanced external force",
+          "C": "Its mass",
+          "D": "The absence of friction"
+        },
+        "answer": "B",
+        "explanation": "The First Law states that an object's state of motion changes 'unless acted upon by an unbalanced external force'."
+      },
+      {
+        "question": "How does the mass of an object relate to its inertia?",
+        "options": {
+          "A": "Inertia is inversely proportional to mass",
+          "B": "Inertia is unrelated to mass",
+          "C": "The more mass an object has, the greater its inertia",
+          "D": "The less mass an object has, the greater its inertia"
+        },
+        "answer": "C",
+        "explanation": "The text specifies, 'The more mass an object has, the greater its inertia'."
+      },
+      {
+        "question": "Which equation correctly represents Newton's Second Law of Motion?",
+        "options": {
+          "A": "E = mc²",
+          "B": "F = m * a",
+          "C": "A = F * m",
+          "D": "F = a / m"
+        },
+        "answer": "B",
+        "explanation": "Newton's Second Law is expressed by the equation F = m * a, where F is net force, m is mass, and a is acceleration."
+      },
+      {
+        "question": "According to Newton's Second Law, what happens to acceleration if the mass of an object increases while the net force acting on it remains the same?",
+        "options": {
+          "A": "Acceleration increases",
+          "B": "Acceleration remains constant",
+          "C": "Acceleration decreases",
+          "D": "Acceleration changes direction"
+        },
+        "answer": "C",
+        "explanation": "The text states that 'a larger mass produces a smaller acceleration for the same force'."
+      },
+      {
+        "question": "What is the fundamental principle of Newton's Third Law of Motion?",
+        "options": {
+          "A": "Objects at rest stay at rest",
+          "B": "Force equals mass times acceleration",
+          "C": "For every action there is an equal and opposite reaction",
+          "D": "Acceleration is inversely proportional to mass"
+        },
+        "answer": "C",
+        "explanation": "Newton's Third Law states 'for every action there is an equal and opposite reaction'."
+      },
+      {
+        "question": "On what do action-reaction pairs always act?",
+        "options": {
+          "A": "The same object",
+          "B": "Different objects",
+          "C": "Objects at rest only",
+          "D": "Objects in motion only"
+        },
+        "answer": "B",
+        "explanation": "The text explicitly states, 'These action-reaction pairs always act on different objects'."
+      },
+      {
+        "question": "Under what conditions do Newton's Laws of Motion remain accurate?",
+        "options": {
+          "A": "For all objects, regardless of speed",
+          "B": "Only for objects at rest",
+          "C": "For objects moving at speeds much slower than the speed of light",
+          "D": "Only for objects moving in a vacuum"
+        },
+        "answer": "C",
+        "explanation": "The laws 'remain accurate for objects moving at speeds much slower than the speed of light, where relativistic effects can be ignored'."
+      },
+      {
+        "question": "What broad relationship do Newton's Laws of Motion primarily describe?",
+        "options": {
+          "A": "The composition of matter",
+          "B": "The nature of light and energy",
+          "C": "The relationship between the motion of an object and the forces acting on it",
+          "D": "The structure of the universe on a cosmic scale"
+        },
+        "answer": "C",
+        "explanation": "The introductory paragraph states that these laws 'describe the relationship between the motion of an object and the forces acting on it'."
+      }
+    ],
+    "doc_id": "2",
+    "doc_title": "Newton's Laws of Motion",
+    "domain": "Physics",
+    "source_chars": 1722
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.24,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "2",
+    "doc_title": "Newton's Laws of Motion",
+    "domain": "Physics",
+    "source_chars": 1722
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": false,
+    "error": "OVERLOADED",
+    "latency_s": 1.28,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "2",
+    "doc_title": "Newton's Laws of Motion",
+    "domain": "Physics",
+    "source_chars": 1722
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 16.97,
+    "needed_fence_fix": false,
+    "raw_len": 4372,
+    "quiz": [
+      {
+        "question": "The French Revolution began in 1789 and lasted until which year?",
+        "options": {
+          "A": "1792",
+          "B": "1793",
+          "C": "1799",
+          "D": "1804"
+        },
+        "answer": "C",
+        "explanation": "The text states that the French Revolution 'began in 1789 and lasted until 1799'."
+      },
+      {
+        "question": "Which of the following was a significant financial cause of the French Revolution?",
+        "options": {
+          "A": "A surplus of agricultural goods leading to price drops",
+          "B": "Lavish spending by the monarchy and costly wars",
+          "C": "The overwhelming success of French colonial ventures",
+          "D": "A sharp increase in exports to other European nations"
+        },
+        "answer": "B",
+        "explanation": "The text mentions a 'severe financial crisis caused by costly wars, including support for the American Revolution, and the lavish spending of the monarchy'."
+      },
+      {
+        "question": "Under the Ancien Regime, which social group primarily bore the tax burden?",
+        "options": {
+          "A": "The clergy (First Estate)",
+          "B": "The nobility (Second Estate)",
+          "C": "The common people (Third Estate)",
+          "D": "The monarchy itself"
+        },
+        "answer": "C",
+        "explanation": "The text states that 'the Third Estate, which made up most of the population, carried the tax burden'."
+      },
+      {
+        "question": "What symbolic event occurred on July 14, 1789, marking a key moment in the revolution?",
+        "options": {
+          "A": "The execution of King Louis XVI",
+          "B": "The adoption of the Declaration of the Rights of Man",
+          "C": "The storming of the Bastille",
+          "D": "Napoleon Bonaparte seizing power"
+        },
+        "answer": "C",
+        "explanation": "The text explicitly states, 'On July 14, 1789, a crowd stormed the Bastille, a royal fortress and prison in Paris, an event that became a symbol of the uprising'."
+      },
+      {
+        "question": "The Declaration of the Rights of Man and of the Citizen proclaimed which fundamental principles?",
+        "options": {
+          "A": "Monarchy, feudalism, and divine right",
+          "B": "Liberty, equality, and fraternity",
+          "C": "Economic prosperity, social hierarchy, and military strength",
+          "D": "Colonial expansion, absolute power, and religious uniformity"
+        },
+        "answer": "B",
+        "explanation": "The text states that the Declaration 'proclaimed liberty, equality, and fraternity as fundamental principles'."
+      },
+      {
+        "question": "In what year was the French monarchy abolished and France declared a republic?",
+        "options": {
+          "A": "1789",
+          "B": "1792",
+          "C": "1793",
+          "D": "1799"
+        },
+        "answer": "B",
+        "explanation": "The text notes, 'The monarchy was abolished in 1792, and France was declared a republic'."
+      },
+      {
+        "question": "Who was the leader associated with the Committee of Public Safety during the Reign of Terror?",
+        "options": {
+          "A": "King Louis XVI",
+          "B": "Napoleon Bonaparte",
+          "C": "Maximilien Robespierre",
+          "D": "Georges Danton"
+        },
+        "answer": "C",
+        "explanation": "The text states the Reign of Terror was 'led by Maximilien Robespierre and the Committee of Public Safety'."
+      },
+      {
+        "question": "What happened to King Louis XVI in January 1793?",
+        "options": {
+          "A": "He voluntarily abdicated his throne",
+          "B": "He fled France and went into exile",
+          "C": "He was executed by guillotine",
+          "D": "He formed an alliance with the revolutionaries"
+        },
+        "answer": "C",
+        "explanation": "The text explicitly mentions, 'King Louis XVI was executed by guillotine in January 1793'."
+      },
+      {
+        "question": "What event marked the end of the French Revolution in 1799?",
+        "options": {
+          "A": "The signing of a peace treaty with Great Britain",
+          "B": "The establishment of a new constitutional monarchy",
+          "C": "Napoleon Bonaparte seizing power in a coup",
+          "D": "The return of the Bourbon dynasty to the throne"
+        },
+        "answer": "C",
+        "explanation": "The text states, 'The revolution ended in 1799 when Napoleon Bonaparte seized power in a coup'."
+      },
+      {
+        "question": "Beyond France, the French Revolution helped spread which of the following ideas?",
+        "options": {
+          "A": "Absolute monarchies and religious orthodoxy",
+          "B": "Feudalism and aristocratic privilege",
+          "C": "Nationalism, democracy, and human rights",
+          "D": "Imperialism and colonial expansion"
+        },
+        "answer": "C",
+        "explanation": "The text concludes that the revolution 'spread ideas of nationalism, democracy, and human rights across Europe and inspired later movements'."
+      }
+    ],
+    "doc_id": "3",
+    "doc_title": "The French Revolution",
+    "domain": "History",
+    "source_chars": 1699
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.23,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "3",
+    "doc_title": "The French Revolution",
+    "domain": "History",
+    "source_chars": 1699
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": true,
+    "error": null,
+    "latency_s": 11.74,
+    "needed_fence_fix": false,
+    "raw_len": 4579,
+    "quiz": [
+      {
+        "question": "What was the primary period of the French Revolution?",
+        "options": {
+          "A": "1776-1783",
+          "B": "1789-1799",
+          "C": "1804-1815",
+          "D": "1643-1715"
+        },
+        "answer": "B",
+        "explanation": "The text explicitly states the French Revolution lasted from 1789 until 1799."
+      },
+      {
+        "question": "Which of the following was a major cause of the French Revolution?",
+        "options": {
+          "A": "A period of unprecedented peace and prosperity",
+          "B": "The Third Estate's privileged tax status",
+          "C": "A severe financial crisis and an unequal tax system",
+          "D": "The monarchy's decision to abolish all taxes"
+        },
+        "answer": "C",
+        "explanation": "The text mentions the financial crisis caused by wars and lavish spending, and the unequal tax burden on the Third Estate as key causes."
+      },
+      {
+        "question": "What was the Ancien Regime?",
+        "options": {
+          "A": "A treaty signed between France and Great Britain",
+          "B": "The system of absolute monarchy in France",
+          "C": "The social structure that divided society into three estates",
+          "D": "A religious movement during the revolution"
+        },
+        "answer": "C",
+        "explanation": "The text defines the Ancien Regime as the social structure divided into three estates: clergy, nobility, and common people."
+      },
+      {
+        "question": "Which event on July 14, 1789, became a symbol of the uprising?",
+        "options": {
+          "A": "The adoption of the Declaration of the Rights of Man",
+          "B": "The execution of King Louis XVI",
+          "C": "The storming of the Bastille",
+          "D": "Napoleon Bonaparte's coup d'état"
+        },
+        "answer": "C",
+        "explanation": "The text states that the storming of the Bastille on July 14, 1789, became a symbol of the uprising."
+      },
+      {
+        "question": "What were the fundamental principles proclaimed in the Declaration of the Rights of Man and of the Citizen?",
+        "options": {
+          "A": "Order, obedience, and monarchy",
+          "B": "Liberty, equality, and fraternity",
+          "C": "Religion, tradition, and privilege",
+          "D": "Taxation, defense, and sovereignty"
+        },
+        "answer": "B",
+        "explanation": "The text explicitly states that the Declaration proclaimed liberty, equality, and fraternity as fundamental principles."
+      },
+      {
+        "question": "When was the monarchy abolished in France and the country declared a republic?",
+        "options": {
+          "A": "1789",
+          "B": "1793",
+          "C": "1799",
+          "D": "1792"
+        },
+        "answer": "D",
+        "explanation": "The text mentions that the monarchy was abolished in 1792, and France was declared a republic."
+      },
+      {
+        "question": "Who led the Reign of Terror?",
+        "options": {
+          "A": "King Louis XVI",
+          "B": "Napoleon Bonaparte",
+          "C": "Maximilien Robespierre",
+          "D": "The National Assembly"
+        },
+        "answer": "C",
+        "explanation": "The text identifies Maximilien Robespierre and the Committee of Public Safety as leading the Reign of Terror."
+      },
+      {
+        "question": "What happened during the Reign of Terror?",
+        "options": {
+          "A": "Thousands of people considered enemies of the revolution were executed",
+          "B": "France achieved lasting peace and stability",
+          "C": "King Louis XVI was restored to power",
+          "D": "The Ancien Regime was reinstated"
+        },
+        "answer": "A",
+        "explanation": "The text explains that during the Reign of Terror, thousands considered enemies of the revolution were executed."
+      },
+      {
+        "question": "How did the French Revolution end?",
+        "options": {
+          "A": "Through a peaceful transition to a constitutional monarchy",
+          "B": "With the restoration of the monarchy",
+          "C": "Through a coup led by Napoleon Bonaparte",
+          "D": "By a foreign invasion that ended the republic"
+        },
+        "answer": "C",
+        "explanation": "The text states that the revolution ended in 1799 when Napoleon Bonaparte seized power in a coup."
+      },
+      {
+        "question": "What global impact did the French Revolution have, according to the text?",
+        "options": {
+          "A": "It led to a period of isolation for Europe",
+          "B": "It spread ideas of nationalism, democracy, and human rights",
+          "C": "It primarily strengthened absolute monarchies across the continent",
+          "D": "It resulted in the immediate collapse of all European governments"
+        },
+        "answer": "B",
+        "explanation": "The text concludes by mentioning that the French Revolution spread ideas of nationalism, democracy, and human rights and inspired later movements."
+      }
+    ],
+    "doc_id": "3",
+    "doc_title": "The French Revolution",
+    "domain": "History",
+    "source_chars": 1699
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 10.93,
+    "needed_fence_fix": false,
+    "raw_len": 4442,
+    "quiz": [
+      {
+        "question": "What is the fundamental concept in economics that describes how the price and quantity of goods and services are determined in a market?",
+        "options": {
+          "A": "Market Equilibrium",
+          "B": "Supply and Demand",
+          "C": "Production Costs",
+          "D": "Consumer Income"
+        },
+        "answer": "B",
+        "explanation": "Supply and demand is described as one of the most fundamental concepts in economics and forms the basis of a market economy, determining price and quantity."
+      },
+      {
+        "question": "According to the law of demand, what happens to the quantity demanded as the price of a good rises, assuming all other factors are equal?",
+        "options": {
+          "A": "It increases.",
+          "B": "It decreases.",
+          "C": "It remains constant.",
+          "D": "It first increases then decreases."
+        },
+        "answer": "B",
+        "explanation": "The law of demand states that as the price of a good rises, the quantity demanded falls."
+      },
+      {
+        "question": "What kind of curve represents the inverse relationship between price and quantity demanded?",
+        "options": {
+          "A": "An upward-sloping demand curve",
+          "B": "A downward-sloping demand curve",
+          "C": "A horizontal demand curve",
+          "D": "A vertical demand curve"
+        },
+        "answer": "B",
+        "explanation": "The inverse relationship between price and quantity demanded is represented by a downward-sloping demand curve."
+      },
+      {
+        "question": "Which statement accurately describes the law of supply?",
+        "options": {
+          "A": "As price rises, quantity supplied falls.",
+          "B": "As price falls, quantity supplied increases.",
+          "C": "As price rises, quantity supplied increases.",
+          "D": "Quantity supplied is unrelated to price."
+        },
+        "answer": "C",
+        "explanation": "The law of supply states that as the price of a good rises, the quantity supplied increases."
+      },
+      {
+        "question": "How is the direct relationship between price and quantity supplied represented on a graph?",
+        "options": {
+          "A": "By a downward-sloping supply curve.",
+          "B": "By an upward-sloping supply curve.",
+          "C": "By a horizontal supply curve.",
+          "D": "By a vertical supply curve."
+        },
+        "answer": "B",
+        "explanation": "The direct relationship between price and quantity supplied is represented by an upward-sloping supply curve."
+      },
+      {
+        "question": "What is the term for the point where the supply curve and the demand curve intersect?",
+        "options": {
+          "A": "Shortage point",
+          "B": "Surplus point",
+          "C": "Market equilibrium",
+          "D": "Production possibility"
+        },
+        "answer": "C",
+        "explanation": "The point where the supply curve and the demand curve intersect is called the market equilibrium."
+      },
+      {
+        "question": "At the market equilibrium price, what is the relationship between quantity demanded and quantity supplied?",
+        "options": {
+          "A": "Quantity demanded exceeds quantity supplied.",
+          "B": "Quantity supplied exceeds quantity demanded.",
+          "C": "Quantity demanded equals quantity supplied.",
+          "D": "There is always a shortage."
+        },
+        "answer": "C",
+        "explanation": "At the equilibrium price, the quantity demanded equals the quantity supplied."
+      },
+      {
+        "question": "What situation occurs if the price of a good is set above the market equilibrium?",
+        "options": {
+          "A": "A shortage, putting upward pressure on price.",
+          "B": "A surplus, putting downward pressure on price.",
+          "C": "Market equilibrium is achieved.",
+          "D": "Quantity demanded increases."
+        },
+        "answer": "B",
+        "explanation": "If the price is set above equilibrium, a surplus occurs because supply exceeds demand, putting downward pressure on the price."
+      },
+      {
+        "question": "If the price of a good is set below the market equilibrium, what is the result?",
+        "options": {
+          "A": "A surplus, leading to price decreases.",
+          "B": "A shortage, leading to price increases.",
+          "C": "Supply equals demand.",
+          "D": "The supply curve shifts left."
+        },
+        "answer": "B",
+        "explanation": "If the price is set below equilibrium, a shortage occurs because demand exceeds supply, putting upward pressure on the price."
+      },
+      {
+        "question": "Which of the following is listed as a factor that can shift the demand curve?",
+        "options": {
+          "A": "Changes in production costs",
+          "B": "Changes in technology",
+          "C": "Changes in consumer income",
+          "D": "Changes in the number of sellers"
+        },
+        "answer": "C",
+        "explanation": "Factors that can shift the demand curve include changes in consumer income, tastes, and the prices of related goods."
+      }
+    ],
+    "doc_id": "4",
+    "doc_title": "Supply and Demand",
+    "domain": "Economics",
+    "source_chars": 1777
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.26,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "4",
+    "doc_title": "Supply and Demand",
+    "domain": "Economics",
+    "source_chars": 1777
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": false,
+    "error": "OVERLOADED",
+    "latency_s": 5.5,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "4",
+    "doc_title": "Supply and Demand",
+    "domain": "Economics",
+    "source_chars": 1777
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 11.23,
+    "needed_fence_fix": false,
+    "raw_len": 4047,
+    "quiz": [
+      {
+        "question": "What is another name for the water cycle?",
+        "options": {
+          "A": "The atmospheric cycle",
+          "B": "The hydrologic cycle",
+          "C": "The terrestrial cycle",
+          "D": "The oceanic cycle"
+        },
+        "answer": "B",
+        "explanation": "The text states, 'The water cycle, also known as the hydrologic cycle...' indicating they are the same."
+      },
+      {
+        "question": "What are the primary forces that drive the water cycle?",
+        "options": {
+          "A": "Wind and magnetism",
+          "B": "Solar flares and Earth's rotation",
+          "C": "Energy from the Sun and gravity",
+          "D": "Tides and volcanic activity"
+        },
+        "answer": "C",
+        "explanation": "The text explicitly states, 'The water cycle is driven by energy from the Sun and the force of gravity.'"
+      },
+      {
+        "question": "Which process describes water changing from a liquid to a gas and rising into the atmosphere?",
+        "options": {
+          "A": "Condensation",
+          "B": "Precipitation",
+          "C": "Evaporation",
+          "D": "Transpiration"
+        },
+        "answer": "C",
+        "explanation": "The text defines evaporation as 'the process by which water changes from a liquid to a gas, or water vapor.'"
+      },
+      {
+        "question": "What is the process where plants release water vapor through their leaves?",
+        "options": {
+          "A": "Evaporation",
+          "B": "Condensation",
+          "C": "Transpiration",
+          "D": "Collection"
+        },
+        "answer": "C",
+        "explanation": "The text states that 'transpiration, is the release of water vapor from plants through their leaves.'"
+      },
+      {
+        "question": "What forms when water vapor in the atmosphere cools and changes back into tiny liquid droplets?",
+        "options": {
+          "A": "Runoff",
+          "B": "Precipitation",
+          "C": "Clouds and fog",
+          "D": "Groundwater"
+        },
+        "answer": "C",
+        "explanation": "The text explains that condensation 'forms clouds and fog' when water vapor cools and changes into liquid droplets."
+      },
+      {
+        "question": "What is the primary way water returns from the atmosphere to the Earth's surface?",
+        "options": {
+          "A": "Evaporation",
+          "B": "Condensation",
+          "C": "Transpiration",
+          "D": "Precipitation"
+        },
+        "answer": "D",
+        "explanation": "The text states, 'Precipitation is the primary way that water returns from the atmosphere to the surface.'"
+      },
+      {
+        "question": "What term is used to describe the combined processes of evaporation and transpiration?",
+        "options": {
+          "A": "Hydrologic cycle",
+          "B": "Precipitation",
+          "C": "Evapotranspiration",
+          "D": "Condensation"
+        },
+        "answer": "C",
+        "explanation": "The text mentions, 'Together these are sometimes called evapotranspiration,' referring to evaporation and transpiration."
+      },
+      {
+        "question": "What happens to precipitation that flows over the land into bodies of water or soaks into the ground?",
+        "options": {
+          "A": "It undergoes condensation",
+          "B": "It is considered collection or runoff",
+          "C": "It immediately evaporates again",
+          "D": "It forms clouds and fog"
+        },
+        "answer": "B",
+        "explanation": "The text defines 'Collection, or runoff,' as occurring 'when precipitation flows over the land into rivers, lakes, and oceans, or soaks into the ground.'"
+      },
+      {
+        "question": "Which of the following is NOT mentioned as a vital role of the water cycle?",
+        "options": {
+          "A": "Regulating Earth's climate",
+          "B": "Creating volcanic activity",
+          "C": "Distributing fresh water",
+          "D": "Supporting all living organisms"
+        },
+        "answer": "B",
+        "explanation": "The text lists regulating climate, distributing fresh water, and supporting living organisms as vital roles, but does not mention creating volcanic activity."
+      },
+      {
+        "question": "Which human activities are mentioned as capable of disrupting the water cycle's natural balance?",
+        "options": {
+          "A": "Building dams and irrigation",
+          "B": "Planting trees and recycling",
+          "C": "Deforestation and burning fossil fuels",
+          "D": "Wind energy and solar power"
+        },
+        "answer": "C",
+        "explanation": "The text explicitly states, 'Human activities such as deforestation and the burning of fossil fuels can disrupt the natural balance of the water cycle.'"
+      }
+    ],
+    "doc_id": "5",
+    "doc_title": "The Water Cycle",
+    "domain": "Earth Science",
+    "source_chars": 1646
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.19,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "5",
+    "doc_title": "The Water Cycle",
+    "domain": "Earth Science",
+    "source_chars": 1646
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": false,
+    "error": "OVERLOADED",
+    "latency_s": 1.21,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "5",
+    "doc_title": "The Water Cycle",
+    "domain": "Earth Science",
+    "source_chars": 1646
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 11.78,
+    "needed_fence_fix": false,
+    "raw_len": 4892,
+    "quiz": [
+      {
+        "question": "What is the Internet best described as?",
+        "options": {
+          "A": "A single, centralized supercomputer network",
+          "B": "A global network of interconnected computers communicating via protocols",
+          "C": "A proprietary system owned by a single corporation",
+          "D": "A database for storing all digital information"
+        },
+        "answer": "B",
+        "explanation": "The text states, 'The Internet is a global network of interconnected computers that communicate with one another using a common set of rules called protocols.'"
+      },
+      {
+        "question": "What is at the heart of the Internet's functioning, responsible for addressing and data delivery?",
+        "options": {
+          "A": "The Domain Name System (DNS)",
+          "B": "The Hypertext Transfer Protocol (HTTP)",
+          "C": "The TCP/IP protocol suite",
+          "D": "Web browsers"
+        },
+        "answer": "C",
+        "explanation": "The text specifies, 'At the heart of the Internet is the TCP/IP protocol suite.'"
+      },
+      {
+        "question": "What is the primary responsibility of the Internet Protocol (IP)?",
+        "options": {
+          "A": "Breaking data into small units called packets",
+          "B": "Encrypting data for secure transmission",
+          "C": "Addressing and routing data from one device to another",
+          "D": "Translating human-friendly domain names"
+        },
+        "answer": "C",
+        "explanation": "According to the text, 'IP, or Internet Protocol, is responsible for addressing and routing data so that it can travel from one device to another.'"
+      },
+      {
+        "question": "What is the unique numerical label assigned to every device connected to the Internet?",
+        "options": {
+          "A": "A domain name",
+          "B": "An IP address",
+          "C": "A server ID",
+          "D": "A packet number"
+        },
+        "answer": "B",
+        "explanation": "The text explains, 'Every device connected to the Internet is assigned a unique numerical label called an IP address.'"
+      },
+      {
+        "question": "Which protocol is responsible for breaking data into packets, ensuring reliable delivery, and reassembling them at the destination?",
+        "options": {
+          "A": "Internet Protocol (IP)",
+          "B": "Hypertext Transfer Protocol (HTTP)",
+          "C": "Domain Name System (DNS)",
+          "D": "Transmission Control Protocol (TCP)"
+        },
+        "answer": "D",
+        "explanation": "The text states, 'TCP, or Transmission Control Protocol, breaks data into small units called packets, ensures they are delivered reliably, and reassembles them in the correct order at the destination.'"
+      },
+      {
+        "question": "What is the role of 'routers' when you visit a website?",
+        "options": {
+          "A": "They store the web content that your computer requests",
+          "B": "They translate domain names into IP addresses",
+          "C": "They encrypt data to protect privacy and security",
+          "D": "They forward packets by choosing efficient paths across the network"
+        },
+        "answer": "D",
+        "explanation": "The text explains that 'routers...forward packets toward their destination by choosing efficient paths across the network.'"
+      },
+      {
+        "question": "What is the main function of the Domain Name System (DNS)?",
+        "options": {
+          "A": "To create web pages using HTML, CSS, and JavaScript",
+          "B": "To translate human-friendly domain names into IP addresses",
+          "C": "To encrypt all internet traffic for security",
+          "D": "To manage the global network of interconnected computers"
+        },
+        "answer": "B",
+        "explanation": "The text describes DNS as acting 'like a phone book for the Internet. It translates human-friendly domain names...into the IP addresses that computers use.'"
+      },
+      {
+        "question": "Which protocol is used for transferring web pages, with a secure version for encrypted data?",
+        "options": {
+          "A": "TCP/IP",
+          "B": "DNS",
+          "C": "HTTP/HTTPS",
+          "D": "HTML"
+        },
+        "answer": "C",
+        "explanation": "The text states, 'Web pages are transferred using the Hypertext Transfer Protocol (HTTP), or its secure version HTTPS, which encrypts data...'"
+      },
+      {
+        "question": "What is the primary role of web browsers in displaying web pages?",
+        "options": {
+          "A": "To store web content on powerful servers",
+          "B": "To assign unique IP addresses to devices",
+          "C": "To interpret received files (like HTML, CSS) and display them",
+          "D": "To choose efficient paths for data packets across the network"
+        },
+        "answer": "C",
+        "explanation": "The text mentions, 'Web browsers interpret the received files, which are written in languages such as HTML, CSS, and JavaScript, and display them as the pages we see.'"
+      },
+      {
+        "question": "Who owns the Internet?",
+        "options": {
+          "A": "A single global governing body",
+          "B": "A consortium of major technology companies",
+          "C": "It has no single owner but is maintained by many cooperating organizations and ISPs",
+          "D": "The United Nations"
+        },
+        "answer": "C",
+        "explanation": "The text clearly states, 'The Internet has no single owner. Instead, it is maintained by many organizations and Internet service providers that cooperate...'"
+      }
+    ],
+    "doc_id": "6",
+    "doc_title": "How the Internet Works",
+    "domain": "Computer Science",
+    "source_chars": 1769
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.2,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "6",
+    "doc_title": "How the Internet Works",
+    "domain": "Computer Science",
+    "source_chars": 1769
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": true,
+    "error": null,
+    "latency_s": 11.19,
+    "needed_fence_fix": false,
+    "raw_len": 5087,
+    "quiz": [
+      {
+        "question": "What is the fundamental definition of the Internet according to the text?",
+        "options": {
+          "A": "A single, powerful server managed by one company.",
+          "B": "A global network of interconnected computers using common protocols.",
+          "C": "A collection of mobile devices that share information wirelessly.",
+          "D": "A system for transferring files between personal computers."
+        },
+        "answer": "B",
+        "explanation": "The text explicitly defines the Internet as 'a global network of interconnected computers that communicate with one another using a common set of rules called protocols.'"
+      },
+      {
+        "question": "Which protocol suite is considered the heart of the Internet?",
+        "options": {
+          "A": "HTTP/HTTPS",
+          "B": "DNS",
+          "C": "TCP/IP",
+          "D": "HTML/CSS"
+        },
+        "answer": "C",
+        "explanation": "The text states, 'At the heart of the Internet is the TCP/IP protocol suite.'"
+      },
+      {
+        "question": "What is the primary role of the Internet Protocol (IP)?",
+        "options": {
+          "A": "To break data into small packets.",
+          "B": "To translate domain names into IP addresses.",
+          "C": "To store and deliver web content.",
+          "D": "To handle addressing and routing of data."
+        },
+        "answer": "D",
+        "explanation": "The text explains that 'IP, or Internet Protocol, is responsible for addressing and routing data so that it can travel from one device to another.'"
+      },
+      {
+        "question": "What is a unique numerical label assigned to each device connected to the Internet called?",
+        "options": {
+          "A": "Domain Name",
+          "B": "Packet",
+          "C": "Router",
+          "D": "IP Address"
+        },
+        "answer": "D",
+        "explanation": "The text defines an IP address as 'a unique numerical label called an IP address' assigned to every connected device."
+      },
+      {
+        "question": "What function does the Transmission Control Protocol (TCP) perform?",
+        "options": {
+          "A": "It ensures packets are delivered reliably and reassembles them.",
+          "B": "It translates human-friendly names into IP addresses.",
+          "C": "It encrypts data for secure communication.",
+          "D": "It forwards packets toward their destination."
+        },
+        "answer": "A",
+        "explanation": "The text states that TCP 'breaks data into small units called packets, ensures they are delivered reliably, and reassembles them in the correct order at the destination.'"
+      },
+      {
+        "question": "What is a server in the context of the Internet?",
+        "options": {
+          "A": "A device that forwards data packets.",
+          "B": "A powerful computer that stores and delivers web content.",
+          "C": "A system that translates domain names.",
+          "D": "A web browser that displays web pages."
+        },
+        "answer": "B",
+        "explanation": "The text describes a server as 'a powerful computer that stores and delivers web content.'"
+      },
+      {
+        "question": "What is the purpose of routers on the Internet?",
+        "options": {
+          "A": "To encrypt data for security.",
+          "B": "To store web content for fast access.",
+          "C": "To forward packets toward their destination by choosing efficient paths.",
+          "D": "To translate domain names into IP addresses."
+        },
+        "answer": "C",
+        "explanation": "The text explains that routers 'forward packets toward their destination by choosing efficient paths across the network.'"
+      },
+      {
+        "question": "What is the function of the Domain Name System (DNS)?",
+        "options": {
+          "A": "To break data into packets and reassemble them.",
+          "B": "To assign unique IP addresses to devices.",
+          "C": "To translate human-friendly domain names into IP addresses.",
+          "D": "To encrypt web traffic for security."
+        },
+        "answer": "C",
+        "explanation": "The text compares DNS to a 'phone book for the Internet' and states it 'translates human-friendly domain names... into the IP addresses that computers use.'"
+      },
+      {
+        "question": "Which protocol is used for transferring web pages, and what is its secure version?",
+        "options": {
+          "A": "TCP/IP, secure TCP",
+          "B": "DNS, secure DNS",
+          "C": "HTTP, HTTPS",
+          "D": "HTML, secure HTML"
+        },
+        "answer": "C",
+        "explanation": "The text mentions, 'Web pages are transferred using the Hypertext Transfer Protocol (HTTP), or its secure version HTTPS, which encrypts data to protect privacy and security.'"
+      },
+      {
+        "question": "What characteristic describes the ownership and maintenance of the Internet?",
+        "options": {
+          "A": "Owned and maintained by a single global corporation.",
+          "B": "Controlled by governments of major countries.",
+          "C": "Maintained by many cooperating organizations using shared standards.",
+          "D": "Owned by the developers of web browsers."
+        },
+        "answer": "C",
+        "explanation": "The text clearly states, 'The Internet has no single owner. Instead, it is maintained by many organizations and Internet service providers that cooperate using shared standards, making it a decentralized and resilient system.'"
+      }
+    ],
+    "doc_id": "6",
+    "doc_title": "How the Internet Works",
+    "domain": "Computer Science",
+    "source_chars": 1769
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 9.12,
+    "needed_fence_fix": false,
+    "raw_len": 4135,
+    "quiz": [
+      {
+        "question": "What is the primary phenomenon explained by the theory of plate tectonics?",
+        "options": {
+          "A": "The movement of Earth's atmosphere",
+          "B": "The large-scale movement of the Earth's outer shell",
+          "C": "The formation of weather patterns",
+          "D": "The composition of the Earth's core"
+        },
+        "answer": "B",
+        "explanation": "Plate tectonics explains the large-scale movement of the Earth's outer shell, known as the lithosphere."
+      },
+      {
+        "question": "What earlier hypothesis was unified by the development of plate tectonics in the 1960s?",
+        "options": {
+          "A": "The Big Bang theory",
+          "B": "Continental drift",
+          "C": "The theory of relativity",
+          "D": "The formation of the solar system"
+        },
+        "answer": "B",
+        "explanation": "The theory of plate tectonics unified earlier ideas, including Alfred Wegener's hypothesis of continental drift."
+      },
+      {
+        "question": "On what layer of the Earth do tectonic plates float?",
+        "options": {
+          "A": "The inner core",
+          "B": "The lithosphere",
+          "C": "The asthenosphere",
+          "D": "The crust"
+        },
+        "answer": "C",
+        "explanation": "Tectonic plates, which make up the lithosphere, float on top of the asthenosphere, a semi-solid layer of the mantle."
+      },
+      {
+        "question": "What is the main driving force behind the slow movement of tectonic plates?",
+        "options": {
+          "A": "Gravitational pull from the moon",
+          "B": "Tidal forces in the oceans",
+          "C": "Convection currents in the mantle",
+          "D": "The rotation of the Earth"
+        },
+        "answer": "C",
+        "explanation": "The plates are driven mainly by convection currents in the mantle."
+      },
+      {
+        "question": "At which type of plate boundary do plates move apart from one another, often leading to seafloor spreading?",
+        "options": {
+          "A": "Convergent boundary",
+          "B": "Transform boundary",
+          "C": "Subduction boundary",
+          "D": "Divergent boundary"
+        },
+        "answer": "D",
+        "explanation": "At divergent boundaries, plates move apart, and magma rises to create new crust through seafloor spreading."
+      },
+      {
+        "question": "What process occurs when a denser oceanic plate sinks beneath a continental plate at a convergent boundary?",
+        "options": {
+          "A": "Seafloor spreading",
+          "B": "Subduction",
+          "C": "Continental rifting",
+          "D": "Transform faulting"
+        },
+        "answer": "B",
+        "explanation": "When an oceanic plate meets a continental plate, the denser oceanic plate sinks beneath the other in a process called subduction."
+      },
+      {
+        "question": "Which geological feature is typically formed when two continental plates collide?",
+        "options": {
+          "A": "Deep ocean trenches",
+          "B": "Volcanic island arcs",
+          "C": "Mid-ocean ridges",
+          "D": "Large mountain ranges"
+        },
+        "answer": "D",
+        "explanation": "When two continental plates collide, they push up to form large mountain ranges such as the Himalayas."
+      },
+      {
+        "question": "Which of the following is a well-known example of a transform boundary?",
+        "options": {
+          "A": "The Mid-Atlantic Ridge",
+          "B": "The Himalayan Mountains",
+          "C": "The San Andreas Fault",
+          "D": "The Mariana Trench"
+        },
+        "answer": "C",
+        "explanation": "The San Andreas Fault in California is a well-known example of a transform boundary where plates slide past each other horizontally."
+      },
+      {
+        "question": "What common geological event is frequently associated with stress buildup along transform boundaries?",
+        "options": {
+          "A": "Volcanic eruptions",
+          "B": "Tsunamis (in the open ocean)",
+          "C": "Earthquakes",
+          "D": "Glacial formation"
+        },
+        "answer": "C",
+        "explanation": "The stress that builds up along transform boundaries is frequently released as earthquakes."
+      },
+      {
+        "question": "Beyond continental movement, what other geological features and events does plate tectonics help explain?",
+        "options": {
+          "A": "The Earth's magnetic field",
+          "B": "The distribution of earthquakes and volcanoes",
+          "C": "The daily weather patterns",
+          "D": "The orbital path of the moon"
+        },
+        "answer": "B",
+        "explanation": "Plate tectonics explains many geological features and events, including the distribution of earthquakes and volcanoes, and the formation of mountains."
+      }
+    ],
+    "doc_id": "7",
+    "doc_title": "Plate Tectonics",
+    "domain": "Earth Science",
+    "source_chars": 1705
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.2,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "7",
+    "doc_title": "Plate Tectonics",
+    "domain": "Earth Science",
+    "source_chars": 1705
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": true,
+    "error": null,
+    "latency_s": 13.13,
+    "needed_fence_fix": false,
+    "raw_len": 4036,
+    "quiz": [
+      {
+        "question": "What is the scientific theory that explains the large-scale movement of the Earth's outer shell?",
+        "options": {
+          "A": "Continental Drift",
+          "B": "Seafloor Spreading",
+          "C": "Plate Tectonics",
+          "D": "Subduction"
+        },
+        "answer": "C",
+        "explanation": "The text explicitly defines Plate Tectonics as the scientific theory explaining the large-scale movement of the Earth's outer shell."
+      },
+      {
+        "question": "What is the Earth's outer shell called in the context of plate tectonics?",
+        "options": {
+          "A": "Asthenosphere",
+          "B": "Lithosphere",
+          "C": "Mantle",
+          "D": "Crust"
+        },
+        "answer": "B",
+        "explanation": "The text states that the Earth's outer shell, called the lithosphere, is broken into tectonic plates."
+      },
+      {
+        "question": "What layer do tectonic plates float on?",
+        "options": {
+          "A": "Lithosphere",
+          "B": "Crust",
+          "C": "Mantle",
+          "D": "Asthenosphere"
+        },
+        "answer": "D",
+        "explanation": "The text explains that tectonic plates float on top of the asthenosphere, which behaves like a slow-flowing, semi-solid material."
+      },
+      {
+        "question": "How fast do tectonic plates typically move?",
+        "options": {
+          "A": "Several meters per year",
+          "B": "A few centimeters per year",
+          "C": "Thousands of kilometers per year",
+          "D": "Several kilometers per day"
+        },
+        "answer": "B",
+        "explanation": "The text states that the plates move very slowly, typically a few centimeters per year."
+      },
+      {
+        "question": "What drives the movement of tectonic plates?",
+        "options": {
+          "A": "Tidal forces from the Moon",
+          "B": "Changes in the Earth's magnetic field",
+          "C": "Convection currents in the mantle",
+          "D": "Gravitational pull between plates"
+        },
+        "answer": "C",
+        "explanation": "The text mentions that the plates are driven mainly by convection currents in the mantle."
+      },
+      {
+        "question": "What happens at divergent plate boundaries?",
+        "options": {
+          "A": "Plates collide and one sinks beneath the other.",
+          "B": "Plates slide past each other horizontally.",
+          "C": "Plates move apart from one another.",
+          "D": "Plates fuse together to form new crust."
+        },
+        "answer": "C",
+        "explanation": "The text defines divergent boundaries as places where plates move apart from one another."
+      },
+      {
+        "question": "What geological process occurs at mid-ocean ridges?",
+        "options": {
+          "A": "Subduction",
+          "B": "Mountain formation",
+          "C": "Seafloor spreading",
+          "D": "Transform faulting"
+        },
+        "answer": "C",
+        "explanation": "The text states that divergent boundaries often happen at mid-ocean ridges, where magma rises to create new crust, a process called seafloor spreading."
+      },
+      {
+        "question": "What is the process called when an oceanic plate sinks beneath a continental plate?",
+        "options": {
+          "A": "Continental Drift",
+          "B": "Subduction",
+          "C": "Seafloor Spreading",
+          "D": "Collision"
+        },
+        "answer": "B",
+        "explanation": "The text defines subduction as the process where an oceanic plate sinks beneath another plate during a collision."
+      },
+      {
+        "question": "Which geological feature is formed when two continental plates collide?",
+        "options": {
+          "A": "Mid-ocean ridges",
+          "B": "Deep ocean trenches",
+          "C": "Volcanic mountains",
+          "D": "Mountain ranges"
+        },
+        "answer": "D",
+        "explanation": "The text explains that when two continental plates collide, they push up to form mountain ranges such as the Himalayas."
+      },
+      {
+        "question": "What kind of geological event is frequently released at transform boundaries?",
+        "options": {
+          "A": "Volcanic eruptions",
+          "B": "Earthquakes",
+          "C": "Tsunamis",
+          "D": "Landslides"
+        },
+        "answer": "B",
+        "explanation": "The text states that the stress that builds up along transform boundaries is frequently released as earthquakes."
+      }
+    ],
+    "doc_id": "7",
+    "doc_title": "Plate Tectonics",
+    "domain": "Earth Science",
+    "source_chars": 1705
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 10.73,
+    "needed_fence_fix": false,
+    "raw_len": 4335,
+    "quiz": [
+      {
+        "question": "What is the primary purpose of cellular respiration?",
+        "options": {
+          "A": "To produce glucose for energy storage",
+          "B": "To release energy stored in glucose and other food molecules",
+          "C": "To synthesize proteins for cell growth",
+          "D": "To store oxygen for future use"
+        },
+        "answer": "B",
+        "explanation": "Cellular respiration is the process by which cells break down glucose and other food molecules to release energy."
+      },
+      {
+        "question": "What is ATP commonly referred to as within the cell?",
+        "options": {
+          "A": "The structural backbone",
+          "B": "The genetic code",
+          "C": "The energy currency",
+          "D": "The waste product"
+        },
+        "answer": "C",
+        "explanation": "ATP is often called the energy currency of the cell because it powers nearly all cellular activities."
+      },
+      {
+        "question": "Which molecules are the primary reactants in the overall chemical equation for aerobic cellular respiration?",
+        "options": {
+          "A": "Carbon dioxide and water",
+          "B": "Glucose and oxygen",
+          "C": "Lactic acid and ethanol",
+          "D": "NADH and FADH2"
+        },
+        "answer": "B",
+        "explanation": "The overall chemical equation for aerobic cellular respiration is C6H12O6 (glucose) + 6 O2 (oxygen) -> 6 CO2 + 6 H2O + energy (ATP)."
+      },
+      {
+        "question": "Where does glycolysis, the first stage of aerobic cellular respiration, take place?",
+        "options": {
+          "A": "Inner membrane of the mitochondria",
+          "B": "Matrix of the mitochondria",
+          "C": "Cytoplasm of the cell",
+          "D": "Nucleus of the cell"
+        },
+        "answer": "C",
+        "explanation": "Glycolysis takes place in the cytoplasm of the cell."
+      },
+      {
+        "question": "Which of the following are primary products released during the Krebs cycle?",
+        "options": {
+          "A": "Glucose and oxygen",
+          "B": "Pyruvate and lactic acid",
+          "C": "NADH, FADH2, and carbon dioxide",
+          "D": "Water and a large amount of ATP"
+        },
+        "answer": "C",
+        "explanation": "In the Krebs cycle, pyruvate is further broken down, releasing carbon dioxide and producing more NADH and FADH2, along with a small amount of ATP."
+      },
+      {
+        "question": "In which stage of aerobic respiration is a large amount of ATP produced, and where is this stage located?",
+        "options": {
+          "A": "Glycolysis; cytoplasm",
+          "B": "Krebs cycle; mitochondrial matrix",
+          "C": "Electron transport chain; inner membrane of the mitochondria",
+          "D": "Fermentation; cytoplasm"
+        },
+        "answer": "C",
+        "explanation": "The electron transport chain, located in the inner membrane of the mitochondria, drives the production of a large amount of ATP."
+      },
+      {
+        "question": "What is the role of oxygen in the electron transport chain?",
+        "options": {
+          "A": "It donates electrons to NADH.",
+          "B": "It splits glucose into pyruvate.",
+          "C": "It serves as the final electron acceptor.",
+          "D": "It produces carbon dioxide."
+        },
+        "answer": "C",
+        "explanation": "Oxygen serves as the final electron acceptor in the electron transport chain, combining with electrons and hydrogen ions to form water."
+      },
+      {
+        "question": "What happens when oxygen is not available for cellular respiration?",
+        "options": {
+          "A": "Cells produce much more ATP.",
+          "B": "Cells undergo aerobic respiration more efficiently.",
+          "C": "Cells use anaerobic respiration, which produces much less ATP.",
+          "D": "The Krebs cycle produces lactic acid in all organisms."
+        },
+        "answer": "C",
+        "explanation": "When oxygen is not available, cells can use anaerobic respiration, or fermentation, which produces much less ATP."
+      },
+      {
+        "question": "Which of these correctly identifies the products of anaerobic respiration (fermentation) in humans and yeast, respectively?",
+        "options": {
+          "A": "Ethanol; lactic acid",
+          "B": "Lactic acid; ethanol and carbon dioxide",
+          "C": "Carbon dioxide; water",
+          "D": "ATP; glucose"
+        },
+        "answer": "B",
+        "explanation": "In humans, anaerobic respiration leads to the build-up of lactic acid in muscles, while in yeast it produces ethanol and carbon dioxide."
+      },
+      {
+        "question": "Cellular respiration is described as being essentially the reverse of which other biological process?",
+        "options": {
+          "A": "Protein synthesis",
+          "B": "DNA replication",
+          "C": "Photosynthesis",
+          "D": "Cell division"
+        },
+        "answer": "C",
+        "explanation": "Cellular respiration is essentially the reverse of photosynthesis."
+      }
+    ],
+    "doc_id": "8",
+    "doc_title": "Cellular Respiration",
+    "domain": "Biology",
+    "source_chars": 1677
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.21,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "8",
+    "doc_title": "Cellular Respiration",
+    "domain": "Biology",
+    "source_chars": 1677
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": false,
+    "error": "OVERLOADED",
+    "latency_s": 7,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "8",
+    "doc_title": "Cellular Respiration",
+    "domain": "Biology",
+    "source_chars": 1677
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 10.93,
+    "needed_fence_fix": false,
+    "raw_len": 5199,
+    "quiz": [
+      {
+        "question": "What is the fundamental characteristic of machine learning according to the text?",
+        "options": {
+          "A": "Following explicitly programmed rules for every situation.",
+          "B": "Identifying patterns in data to make predictions or decisions.",
+          "C": "Requiring human intervention for every data point.",
+          "D": "Strictly adhering to fixed rules without learning."
+        },
+        "answer": "B",
+        "explanation": "The text states that a machine learning model 'identifies patterns in data and uses them to make predictions or decisions' instead of following fixed rules."
+      },
+      {
+        "question": "How many main types of machine learning are described in the text?",
+        "options": {
+          "A": "Two",
+          "B": "Three",
+          "C": "Four",
+          "D": "Five"
+        },
+        "answer": "B",
+        "explanation": "The text explicitly mentions 'three main types of machine learning': supervised, unsupervised, and reinforcement learning."
+      },
+      {
+        "question": "Which type of machine learning involves training a model on labeled data, where each example includes both the input and the correct output?",
+        "options": {
+          "A": "Unsupervised learning",
+          "B": "Reinforcement learning",
+          "C": "Supervised learning",
+          "D": "Deep learning"
+        },
+        "answer": "C",
+        "explanation": "The text defines supervised learning as 'the model is trained on labeled data, meaning each example includes both the input and the correct output.'"
+      },
+      {
+        "question": "According to the text, which of the following are common tasks in supervised learning?",
+        "options": {
+          "A": "Clustering and dimensionality reduction",
+          "B": "Classification and regression",
+          "C": "Policy optimization and reward maximization",
+          "D": "Data collection and cleaning"
+        },
+        "answer": "B",
+        "explanation": "The text states, 'Common supervised learning tasks include classification, where the goal is to assign data to categories, and regression, where the goal is to predict a continuous value.'"
+      },
+      {
+        "question": "In unsupervised learning, what is the primary characteristic of the data provided to the model?",
+        "options": {
+          "A": "It includes both input and correct output.",
+          "B": "It is labeled with specific categories.",
+          "C": "It is without labels, requiring the model to find structure.",
+          "D": "It consists of rewards and penalties for actions."
+        },
+        "answer": "C",
+        "explanation": "The text describes unsupervised learning as 'the model is given data without labels and must find structure or patterns on its own.'"
+      },
+      {
+        "question": "Which of these tasks is associated with unsupervised learning?",
+        "options": {
+          "A": "Predicting a continuous value",
+          "B": "Assigning data to predefined categories",
+          "C": "Grouping similar data points together",
+          "D": "Learning a strategy to maximize total reward"
+        },
+        "answer": "C",
+        "explanation": "The text states, 'A common unsupervised task is clustering, which groups similar data points together.'"
+      },
+      {
+        "question": "What concept in reinforcement learning refers to the strategy an agent learns to maximize its total reward over time?",
+        "options": {
+          "A": "Classification",
+          "B": "Policy",
+          "C": "Clustering",
+          "D": "Regression"
+        },
+        "answer": "B",
+        "explanation": "The text explains that in reinforcement learning, the agent 'gradually learns a strategy, called a policy, that maximizes its total reward over time.'"
+      },
+      {
+        "question": "Which of the following is NOT listed as a step in a typical machine learning workflow?",
+        "options": {
+          "A": "Collecting and cleaning data",
+          "B": "Explicitly programming rules for every situation",
+          "C": "Splitting data into training and testing sets",
+          "D": "Evaluating model performance on testing data"
+        },
+        "answer": "B",
+        "explanation": "The introduction states ML learns 'without being explicitly programmed for every situation.' The workflow steps are collecting/cleaning data, splitting data, choosing a model, training, and evaluating."
+      },
+      {
+        "question": "Which set of metrics is mentioned for evaluating model performance?",
+        "options": {
+          "A": "Speed, size, cost, and efficiency",
+          "B": "Policy, environment, agent, and reward",
+          "C": "Accuracy, precision, recall, and F1 score",
+          "D": "Labeling, structuring, simplifying, and grouping"
+        },
+        "answer": "C",
+        "explanation": "The text states, 'Important evaluation metrics include accuracy, precision, recall, and the F1 score.'"
+      },
+      {
+        "question": "What are the two key challenges in machine learning that involve balancing model complexity?",
+        "options": {
+          "A": "Classification and regression",
+          "B": "Clustering and dimensionality reduction",
+          "C": "Underfitting and overfitting",
+          "D": "Data collection and data cleaning"
+        },
+        "answer": "C",
+        "explanation": "The text highlights 'balancing underfitting, where a model is too simple to capture patterns, and overfitting, where a model memorizes the training data but fails to generalize to new data.'"
+      }
+    ],
+    "doc_id": "9",
+    "doc_title": "Introduction to Machine Learning",
+    "domain": "Computer Science",
+    "source_chars": 1939
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.21,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "9",
+    "doc_title": "Introduction to Machine Learning",
+    "domain": "Computer Science",
+    "source_chars": 1939
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.14,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "9",
+    "doc_title": "Introduction to Machine Learning",
+    "domain": "Computer Science",
+    "source_chars": 1939
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "success": true,
+    "error": null,
+    "latency_s": 9.45,
+    "needed_fence_fix": false,
+    "raw_len": 4324,
+    "quiz": [
+      {
+        "question": "What are the three main components of the human circulatory system?",
+        "options": {
+          "A": "Heart, lungs, and brain",
+          "B": "Heart, blood vessels, and blood",
+          "C": "Arteries, veins, and capillaries",
+          "D": "Oxygen, nutrients, and hormones"
+        },
+        "answer": "B",
+        "explanation": "The text states: 'It consists of three main components: the heart, the blood vessels, and the blood.'"
+      },
+      {
+        "question": "What is the primary function of the heart in the circulatory system?",
+        "options": {
+          "A": "To produce hormones",
+          "B": "To filter waste products",
+          "C": "To act as a pump that pushes blood through the body",
+          "D": "To exchange gases with the lungs"
+        },
+        "answer": "C",
+        "explanation": "The text describes the heart as 'a muscular organ... It acts as a pump that pushes blood through the body.'"
+      },
+      {
+        "question": "How many chambers does the human heart have?",
+        "options": {
+          "A": "Two",
+          "B": "Three",
+          "C": "Four",
+          "D": "Five"
+        },
+        "answer": "C",
+        "explanation": "The text states: 'The heart has four chambers: two upper chambers called atria and two lower chambers called ventricles.'"
+      },
+      {
+        "question": "What is the purpose of the valves located between the chambers of the heart?",
+        "options": {
+          "A": "To regulate blood pressure",
+          "B": "To produce new blood cells",
+          "C": "To ensure that blood flows in only one direction",
+          "D": "To connect arteries and veins"
+        },
+        "answer": "C",
+        "explanation": "The text explains: 'Valves between the chambers ensure that blood flows in only one direction.'"
+      },
+      {
+        "question": "Which type of blood vessel generally carries oxygen-rich blood away from the heart to the body's tissues?",
+        "options": {
+          "A": "Veins",
+          "B": "Capillaries",
+          "C": "Arteries",
+          "D": "Lymphatic vessels"
+        },
+        "answer": "C",
+        "explanation": "The text clarifies: 'Arteries carry oxygen-rich blood away from the heart to the body's tissues...'"
+      },
+      {
+        "question": "What is the main function of capillaries?",
+        "options": {
+          "A": "To carry blood rapidly from the heart to the body",
+          "B": "To return blood to the heart from the body",
+          "C": "To allow the exchange of oxygen, nutrients, and waste between the blood and the body's cells",
+          "D": "To pump blood through the lungs"
+        },
+        "answer": "C",
+        "explanation": "The text states: 'Capillaries are tiny vessels... and allow the exchange of oxygen, nutrients, and waste between the blood and the body's cells.'"
+      },
+      {
+        "question": "In pulmonary circulation, blood travels from the heart to which organ before returning to the heart?",
+        "options": {
+          "A": "Brain",
+          "B": "Kidneys",
+          "C": "Liver",
+          "D": "Lungs"
+        },
+        "answer": "D",
+        "explanation": "The text describes pulmonary circulation: 'blood travels from the heart to the lungs, where it picks up oxygen and releases carbon dioxide, and then returns to the heart.'"
+      },
+      {
+        "question": "What is the primary role of systemic circulation?",
+        "options": {
+          "A": "To transport oxygen-poor blood to the lungs",
+          "B": "To pump oxygen-rich blood from the heart to the rest of the body and oxygen-poor blood returns to the heart",
+          "C": "To filter waste products from the blood",
+          "D": "To produce blood cells"
+        },
+        "answer": "B",
+        "explanation": "The text states: 'In systemic circulation, oxygen-rich blood is pumped from the heart to the rest of the body and oxygen-poor blood returns to the heart.'"
+      },
+      {
+        "question": "Which component of blood is responsible for carrying oxygen using hemoglobin?",
+        "options": {
+          "A": "White blood cells",
+          "B": "Platelets",
+          "C": "Plasma",
+          "D": "Red blood cells"
+        },
+        "answer": "D",
+        "explanation": "The text specifies: 'red blood cells, which carry oxygen using a protein called hemoglobin'."
+      },
+      {
+        "question": "Which statement about arteries is an exception to their general function mentioned in the text?",
+        "options": {
+          "A": "Arteries carry blood towards the heart.",
+          "B": "The pulmonary artery carries oxygen-poor blood to the lungs.",
+          "C": "Arteries connect to veins via capillaries.",
+          "D": "Arteries are typically smaller than capillaries."
+        },
+        "answer": "B",
+        "explanation": "The text states: 'Arteries carry oxygen-rich blood away from the heart... except for the pulmonary artery, which carries oxygen-poor blood to the lungs.'"
+      }
+    ],
+    "doc_id": "10",
+    "doc_title": "The Human Circulatory System",
+    "domain": "Biology",
+    "source_chars": 1785
+  },
+  {
+    "model": "gemini-2.0-flash",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.2,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "10",
+    "doc_title": "The Human Circulatory System",
+    "domain": "Biology",
+    "source_chars": 1785
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "success": false,
+    "error": "RATE_LIMIT",
+    "latency_s": 0.23,
+    "needed_fence_fix": false,
+    "raw_len": 0,
+    "quiz": null,
+    "doc_id": "10",
+    "doc_title": "The Human Circulatory System",
+    "domain": "Biology",
+    "source_chars": 1785
+  }
+]
