@@ -6,3 +6,10 @@ dist/
 
 # Office temp lock files
 ~$*
+
+# Report/submission docs (kept local, submitted via Google Drive)
+README.md
+REPORT.html
+REPORT.md
+SUBMISSION.md
+Speaker_Script_Slides_1-2.docx
