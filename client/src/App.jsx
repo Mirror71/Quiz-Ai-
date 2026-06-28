@@ -51,11 +51,9 @@ export default function App() {
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-3xl items-center gap-2 px-4 py-4">
-          <span className="text-2xl">🧠</span>
+          <img src="/logo-icon.png" alt="QuizAI logo" className="h-9 w-9 rounded-md object-contain" />
           <h1 className="text-lg font-bold tracking-tight">QuizAI</h1>
-          <span className="ml-auto text-xs text-slate-400">
-            PDF → Quiz, powered by Gemini
-          </span>
+          
         </div>
       </header>
 
