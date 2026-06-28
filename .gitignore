@@ -8,7 +8,6 @@ dist/
 ~$*
 
 # Report/submission docs (kept local, submitted via Google Drive)
-README.md
 REPORT.html
 REPORT.md
 SUBMISSION.md
