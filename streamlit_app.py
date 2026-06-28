@@ -124,9 +124,10 @@ def generate_quiz(text, api_key):
     prompt = build_prompt(text)
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"response_mime_type": "application/json"},
+        "generationConfig": {"response_mime_type": "application/json", "maxOutputTokens": 8192},
     }
     saw_rate = False
+    last_detail = "unknown error"
     for model in MODEL_CHAIN:
         for attempt in range(3):
             try:
@@ -136,10 +137,16 @@ def generate_quiz(text, api_key):
                     json=body,
                     timeout=90,
                 )
-            except requests.RequestException:
+            except requests.RequestException as e:
+                last_detail = f"{model}: network error ({e.__class__.__name__})"
                 break
             if r.status_code == 200:
-                raw = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+                try:
+                    parts = r.json()["candidates"][0]["content"]["parts"]
+                    raw = "".join(p.get("text", "") for p in parts)
+                except Exception:
+                    last_detail = f"{model}: 200 but empty/blocked response — {r.text[:200]}"
+                    break
                 parsed = None
                 try:
                     parsed = json.loads(raw)
@@ -151,13 +158,17 @@ def generate_quiz(text, api_key):
                 if parsed and valid_quiz(parsed):
                     return parsed
                 raise ValueError("MALFORMED")
+            # non-200 response — record details for diagnostics
+            last_detail = f"{model}: HTTP {r.status_code} — {r.text[:200].strip()}"
             if r.status_code == 503 and attempt < 2:
                 time.sleep(2 ** attempt)
                 continue
             if r.status_code == 429:
                 saw_rate = True
             break
-    raise RuntimeError("RATE_LIMIT" if saw_rate else "FAILED")
+    if saw_rate:
+        raise RuntimeError("RATE_LIMIT")
+    raise RuntimeError("FAILED::" + last_detail)
 
 
 # --------------------------------------------------------------------------- state
@@ -225,10 +236,13 @@ def screen_upload():
                 with st.spinner("Generating your quiz with Gemini… (5–15s)"):
                     quiz = generate_quiz(text, api_key)
             except RuntimeError as e:
-                if str(e) == "RATE_LIMIT":
+                msg = str(e)
+                if msg == "RATE_LIMIT":
                     st.error("The AI is rate-limited right now (free-tier quota). Please wait and try again.")
                 else:
                     st.error("Failed to generate quiz. Please try again.")
+                    with st.expander("🔧 Technical details (for debugging)"):
+                        st.code(msg.replace("FAILED::", ""))
                 return
             except ValueError:
                 st.error("AI returned an unexpected format. Please try again.")
