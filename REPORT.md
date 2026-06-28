@@ -10,10 +10,10 @@
 |---|---|
 | **Title** | QuizAI: A Generative AI System for Automatic Multiple-Choice Quiz Generation from Educational Documents Using Large Language Models |
 | **AI Topic** | Generative AI |
-| **Group Members** | 1. _[Name / NIM]_  ·  2. _[Name / NIM]_  ·  3. _[Name / NIM]_ |
+| **Group Members** | 1. Mohamed Gasem · 2. Maulid Yuswan Hidayat · 3. Mohamed Ahmed |
 | **Course** | Artificial Intelligence |
 | **Date** | June 2026 |
-| **Repository / Program link** | _[GitHub link]_ |
+| **Repository / Program link** | https://github.com/Mirror71/Quiz-Ai- |
 
 ---
 

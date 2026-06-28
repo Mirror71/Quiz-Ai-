@@ -54,7 +54,7 @@ export default function App() {
           <span className="text-2xl">🧠</span>
           <h1 className="text-lg font-bold tracking-tight">QuizAI</h1>
           <span className="ml-auto text-xs text-slate-400">
-            PDF → Quiz, powered by Claude
+            PDF → Quiz, powered by Gemini
           </span>
         </div>
       </header>

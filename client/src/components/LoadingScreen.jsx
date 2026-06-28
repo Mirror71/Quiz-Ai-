@@ -1,4 +1,4 @@
-// Skeleton / shimmer UI shown while Claude generates the quiz (5–15s).
+// Skeleton / shimmer UI shown while Gemini generates the quiz (5–15s).
 function ShimmerBar({ className = '' }) {
   return (
     <div

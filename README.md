@@ -1,14 +1,15 @@
-# 🧠 QuizAI — AI-Powered Quiz Generator from PDFs
+# 🧠 QuizAI — AI-Powered Quiz Generator from PDF & PowerPoint
 
-Upload a PDF → extract its text → Claude generates a 10-question multiple-choice
-quiz → take it interactively with instant feedback and a score screen.
+Upload a PDF or PowerPoint → extract its text → Gemini generates a 10-question
+multiple-choice quiz → take it interactively with instant feedback and a score
+screen.
 
 ## Tech Stack
 
 - **Frontend:** React + Tailwind CSS (Vite)
 - **Backend:** Node.js + Express
 - **AI:** Google Gemini API (`gemini-2.5-flash` by default, free tier; set `GEMINI_MODEL` to override)
-- **PDF parsing:** `pdf-parse` · **Upload:** `multer`
+- **PDF parsing:** `pdf-parse` · **PPTX parsing:** `JSZip` · **Upload:** `multer`
 
 ## Structure
 
@@ -17,7 +18,7 @@ quiz → take it interactively with instant feedback and a score screen.
 /server          Express API
   /routes        upload route + multer config
   /controllers   request handling / error mapping
-  /utils         pdf.js (text extraction), gemini.js (quiz generation)
+  /utils         pdf.js + pptx.js + extract.js (text extraction), gemini.js (quiz generation)
 .env             GEMINI_API_KEY
 ```
 
@@ -48,10 +49,10 @@ Open http://localhost:5173. The Vite dev server proxies `/api/*` to the backend.
 
 ## How it works
 
-- `POST /api/upload` accepts a single PDF (`multipart/form-data`, field `file`).
-- `multer` enforces a 10MB limit and `.pdf`-only filter.
-- `pdf-parse` extracts text; empty extraction → clear error. Text over 12,000
-  chars is truncated and the user is notified.
+- `POST /api/upload` accepts a single PDF or PPTX (`multipart/form-data`, field `file`).
+- `multer` enforces a 10MB limit and a `.pdf`/`.pptx`-only filter.
+- `pdf-parse` (PDF) and `JSZip` (PPTX slide XML) extract text; empty extraction →
+  clear error. Text over 12,000 chars is truncated and the user is notified.
 - Gemini is prompted for strict JSON (via `responseMimeType: application/json`).
   As a safety net, if output is wrapped in markdown fences the server strips them
   and retries the parse before erroring. Free-tier rate limits (429) return a
