@@ -197,7 +197,7 @@ with col1:
         st.markdown("# 🧠")
 with col2:
     st.title("QuizAI")
-    st.caption("Turn any PDF or PowerPoint into a quiz — powered by Google Gemini")
+    st.caption("Turn any PDF or PowerPoint into a quiz")
 st.divider()
 
 
